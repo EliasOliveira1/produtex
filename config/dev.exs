@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :produtex, Produtex.Repo,
   username: "postgres",
-  password: "docker",
+  password: "postgres",
   hostname: "localhost",
   database: "produtex_dev",
   stacktrace: true,
